@@ -27,4 +27,6 @@ Esai
 ![](https://github.com/YumaRakha/website-pribadi/blob/main/gambar/Cuplikan%20layar%202025-03-17%20172423.png)
 
 2. Modifikasi halaman "Tentang Saya" buat tampilan yang menarik
+   menambahkan semacam cover dan juga mengatur layout dengan menampilkan grid dibawah gambar cover
+![](https://github.com/YumaRakha/website-pribadi/blob/main/gambar/Tentang%20Saya%20-%20Google%20Chrome%202025-03-19%2021-01-56.gif)
 
