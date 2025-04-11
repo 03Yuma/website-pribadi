@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Esai",
-  description: "Halaman Esai",
+  title: 'Esai',
+  description: 'Halaman Esai',
   openGraph: {
-    title: "Esai",
-    description: "Halaman Esai",
+    images: "https://examlple.com/default-image.jpg",
+    url: "https://example.com",
   },
 };
 
@@ -19,20 +19,25 @@ const articles = [
 
 export default function Essays() {
   return (
-    <div className="mt-5 px-8">
-      <header className="mb-4">
-        <h1 className="font-bold text-4xl text-zinc-800">Esai</h1>
+    // <div className="mt-5 px-8">
+    //   <header className="mb-4">
+    //     <h1 className="font-bold text-4xl text-zinc-800">Esai</h1>
+    //   </header>
+    //   <div className="grid grid-cols-2 text-xl bg-blue-300 font-bold p-2 border-b">
+    //     <div>Judul</div>
+    //     <div>Tanggal Terbit</div>
+    //   </div>
+    //   {articles.map((article, index) => (
+    //     <div key={index} className="grid grid-cols-2 p-2 border-b">
+    //       <div>{article.title}</div>
+    //       <div>{article.date}</div>
+    //     </div>
+    //   ))}
+    // </div>
+    <div className="mt-16 px-8">
+      <header>
+        <h1 className="font-bold ext-4xl text-zinc-800"> Tentang Saya</h1>
       </header>
-      <div className="grid grid-cols-2 text-xl bg-blue-300 font-bold p-2 border-b">
-        <div>Judul</div>
-        <div>Tanggal Terbit</div>
-      </div>
-      {articles.map((article, index) => (
-        <div key={index} className="grid grid-cols-2 p-2 border-b">
-          <div>{article.title}</div>
-          <div>{article.date}</div>
-        </div>
-      ))}
     </div>
   );
 }
